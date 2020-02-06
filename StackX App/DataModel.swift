@@ -8,6 +8,7 @@
 
 import UIKit
 
-class DataModel: NSObject {
-
+class DataModel {
+var questions = [String]()
+static let questionModel = DataModel()
 }

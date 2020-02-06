@@ -36,6 +36,11 @@
 					<key>UISceneStoryboardFile</key>
 					<string>Main</string>
 				</dict>
+                <key>NSAppTransportSecurity</key>
+                <dict>
+                  <key>NSAllowsArbitraryLoads</key>
+                  <true/>
+                </dict>
 			</array>
 		</dict>
 	</dict>

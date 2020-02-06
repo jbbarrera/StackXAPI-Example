@@ -13,6 +13,8 @@
 		CEC0272823E4C0910030B629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC0272623E4C0910030B629 /* Main.storyboard */; };
 		CEC0272A23E4C0920030B629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC0272923E4C0920030B629 /* Assets.xcassets */; };
 		CEC0272D23E4C0920030B629 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC0272B23E4C0920030B629 /* LaunchScreen.storyboard */; };
+		CEF9E25A23E8A36C00BCDE07 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E25923E8A36C00BCDE07 /* NetworkClient.swift */; };
+		CEF9E25C23E8B38400BCDE07 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E25B23E8B38400BCDE07 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CEC0272923E4C0920030B629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEC0272C23E4C0920030B629 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC0272E23E4C0920030B629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9E25923E8A36C00BCDE07 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		CEF9E25B23E8B38400BCDE07 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CEC0272923E4C0920030B629 /* Assets.xcassets */,
 				CEC0272B23E4C0920030B629 /* LaunchScreen.storyboard */,
 				CEC0272E23E4C0920030B629 /* Info.plist */,
+				CEF9E25923E8A36C00BCDE07 /* NetworkClient.swift */,
+				CEF9E25B23E8B38400BCDE07 /* DataModel.swift */,
 			);
 			path = "StackX App";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF9E25C23E8B38400BCDE07 /* DataModel.swift in Sources */,
 				CEC0272523E4C0910030B629 /* ViewController.swift in Sources */,
 				CEC0272123E4C0910030B629 /* AppDelegate.swift in Sources */,
 				CEC0272323E4C0910030B629 /* SceneDelegate.swift in Sources */,
+				CEF9E25A23E8A36C00BCDE07 /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
